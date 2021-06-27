@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Smart Farmer</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#home" class="nav__logo"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Gallery</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://app.smart-farmer.co.uk/login?redirect=%2F" class="nav__link">Sign In / Sign Up</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Brightness Too Low/ High?</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/1354 Construction worker typing on iPhone 8(1).jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__data-title">Smart Farmer <br> <b>SAVES LIVES</b></h1>
+
+                    </div>
+
+                    <div class="home__social">
+                        <div class="FB">
+                        <a href="https://www.linkedin.com/in/marc-skivington-4a6867174/" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                    <div class="IG">
+                        <a href="https://www.instagram.com/smartfarmerapp/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        </div>
+                        <div class="TW">
+                        <a href="https://twitter.com/smartfarmerapp?lang=en" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Hear what people are saying about us</span>
+                            <a href="testimonials.html" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <a href="testimonials.html">
+                                <img src="assets/img/SFL.jpeg" alt="" class="home__info-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">What Is <br> Smart Farmer?</h2>
+                        <p class="about__description">
+                            The Smart Farmer system is an application that ensures that you are always able to manage your farm when the need arises.<br><br>
+                            
+                            ​
+                            
+                            Available on both iOS and Android devices, as well as PC and Mac, Smart Farmer easily slots into your workflow and reduces the dreaded paper trail.<br><br>
+
+
+                            Feel confident that Smart Farmer provides a practical solution to log pre start checks and record maintenance management of all types of farm machinery, to comply with HSE legislation.<br><br>
+                            
+                            ​
+                            
+                            The Smart Farmer System allows operators to keep track of the daily operations of their farm such as pre-start checks, Services, Risk Assessments, Training Programs and even more features that are being introduced in the coming months!<br><br>
+                            
+                            ​
+                            
+                           Click below to learn about our newest features.<br><br><br>
+                        <a href="#" class="button-hazard" id="G-Play">Check Out Our Added Hazard Detection Features</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.smartfarmer.app">
+                            <img src="assets/img/google.png" alt="" class="sponsor__img" id="G-Play">
+                        </a>
+                        <a href="https://apps.apple.com/gb/app/smart-farmer/id1490687294">
+                            <img src="assets/img/App-Store.png" alt="" class="sponsor__img" id="App-S">
+                        </a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/smart-test-2.jpeg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/handphone2.fw-560w (1).png" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Scroll through our most recent <br> Awards</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <div class="card-image" style="background-image: url('assets/img/smart-award.jpeg');"></div>
+                            <!--<div class="discover__data">
+                                <h2 class="discover__title">Royal Highland Showcase</h2>
+                                <span class="discover__description">Silver- Technical Innovation</span>
+                            </div>-->
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <div class="card-image" style="background-image: url('assets/img/WhatsApp\ Image\ 2021-02-03\ at\ 10_20_37_jp.webp');"></div>
+                            <!--<div class="discover__data">
+                                <h2 class="discover__title">British Farming Association</h2>
+                                <span class="discover__description">Gold- Agri-tech Innovator</span>
+                            </div>-->
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <div class="card-image" style="background-image: url('assets/img/SRA3.png');"></div>
+                            <!--<div class="discover__data">
+                                <h2 class="discover__title-two">Scottish Rural Awards</h2>
+                                <span class="discover__description-two">Finalist- Digital Innovator of the Year</span>
+                            </div>-->
+                        </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">With Our Experience <br> You Can't go Wrong</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">20+</h2>
+                            <span class="experience__description">Years <br> Experience</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">3</h2>
+                            <span class="experience__description">Pricing<br> Options</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">175+</h2>
+                            <span class="experience__description">Satisfied <br> Customers</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/iMac Mockup Small 2.webp" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/Oneplus 7 Pro Mockup risk assessments 1_.webp" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!--==================== Hazard Detection ====================-->
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Smart Farmer <br>Hazard Detection</h2>
+                        <p class="about__description">
+                            Smart Farmer Saves Lives<br><br>
+                            
+                            ​
+                            
+                            Our award winning app helps notify staff when they're in danger. Alerts are sent to Farmers when they are approaching hazards, such as Pylons or overhead cables.<br><br>
+                            
+                            Intelligent push notifications alert the Farmer and Management when movement hasn't been detected,​ allowing more trust and transparency in your Operation.<br><br>
+
+                            
+                            Be a Smart Farmer- It could save your life<br><br><br>
+                        <a href="#sponsor" class="button-hazard">Like What You Hear?</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/hazard.jpeg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/hazard-no-movement.jpeg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Can you afford <strong>not </strong> to be a Smart Farmer? Take a tour of the app and the concept behind it with Company Founder, Marc Skivington.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/Smart_Farmer_App_FINAL.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Gallery</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/IMG_6254 samsung note 3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Machinery Check</h3>
+                                <span class="place__subtitle">In App Features</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/1354 Construction worker typing on iPhone 8(1).jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Logging In</h3>
+                                <span class="place__subtitle">App Home Screen</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/DJI_0063.JPG" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Push Noifications</h3>
+                                <span class="place__subtitle">In App Features</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/marc.webp" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Daily Machinery Logging</h3>
+                                <span class="place__subtitle">In App Features</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/img/scenery.webp" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Track Machinery Movement</h3>
+                                <span class="place__subtitle">In App Features</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/img/Smart-Farmer-app-tractor-photo-1.jpeg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Record Daily Checks</h3>
+                                <span class="place__subtitle">In App Features</span>
+                                <span class="place__price"></span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </section>
+
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Subscribe to our Newsletter</h2>
+                        <p class="subscribe__description">Like what you hear? Submit your email below to be notified on all things Smart Farmer
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Enter your email" class="subscribe__input">
+    
+                            <button class="button">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section" id="sponsor">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <a href="https://www.youtube.com/channel/UCGXu3VM0H3jWd-JO1OkZeYw/featured">
+                            <img src="assets/img/utubec.png" alt="" class="sponsor__img">
+                        </a>
+                    </div>
+                    <div class="sponsor__content">
+                        <a href="https://play.google.com/store/apps/details?id=com.smartfarmer.app">
+                            <img src="assets/img/google.png" alt="" class="sponsor__img">
+                        </a>
+                    </div>
+                    <div class="sponsor__content">
+                        <a href="https://apps.apple.com/gb/app/smart-farmer/id1490687294">
+                            <img src="assets/img/App-Store.png" alt="" class="sponsor__img">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#about" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://www.youtube.com/watch?v=0iLNaca0tC4" class="footer__link"> Browser App Overview</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#home" class="footer__link">Contact Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#sponsor" class="footer__link">Download The App</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Coming Soon</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link2">Blog</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link2">Graphic Pricing Plans</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link2">New App Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link2">Social Media Content</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 Smart Farmer. All rights reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">marc@smartfarmerapp.co.uk</a>
+                        <a href="#" class="footer__terms-link">07860 928 665</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
